@@ -17,7 +17,7 @@ public class Banner implements Loader {
         CoreLogger.info("&5Plugin: &e" + plugin.getName());
         CoreLogger.info("&fAuthor: &e" + plugin.getDescription().getAuthors().get(0));
         CoreLogger.info("&fVersion: &e" + plugin.getDescription().getVersion());
-        CoreLogger.info("&fDownload in :&e");
+        CoreLogger.info("&fDownload in :&ehttps://www.spigotmc.org/resources/simplehelp.101502/");
     }
 
     @Override
