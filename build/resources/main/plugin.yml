@@ -1,6 +1,6 @@
 name: SimpleHelp
 main: net.shibacraft.simplehelp.SimpleHelp
-version: '${v}'
+version: '0.0.1-SNAPSHOT'
 author: SKJOLBERG
 commands:
   simplehelp:
