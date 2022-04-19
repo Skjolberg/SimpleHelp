@@ -1,2 +1,2 @@
-# SimpleDropInventory
-Automatically drops items into the inventory
+# SimpleHelp
+Help command with unlimited pages
