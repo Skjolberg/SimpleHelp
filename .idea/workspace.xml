@@ -6,15 +6,44 @@
   <component name="ChangeListManager">
     <list default="true" id="b6879448-3669-4a48-9596-643eddb117c5" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/banner/Banner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/banner/Banner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/SimpleHelp-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/SimpleHelp-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/SimpleHelp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/SimpleHelpCompletion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/banner/Banner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/chat/TextColor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/loader/Loader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/logger/CoreLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/commands/HelpCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/commands/MainCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/files/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/files/messages/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/module/CommandModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/module/MainModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/SimpleHelp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/Help.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/Messages.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/plugin.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/SimpleHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/SimpleHelp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/banner/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/banner/Banner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/logger/CoreLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/logger/CoreLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/HelpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/MainCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/messages/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/messages/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/CommandModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/CommandModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/MainModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/MainModule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -38,6 +67,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="SimpleHelp" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleHelp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -50,7 +85,44 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2848PfYSM9xWfrLSVBCQlFXL8wC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Gradle.SimpleHelp [proguard]">
+    <configuration name="SimpleHelp [proguard]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="proguard" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="SimpleHelp [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -72,25 +144,14 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="SimpleHelp" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="SimpleHelp" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SimpleHelp [proguard]" />
         <item itemvalue="Gradle.SimpleHelp [shadowJar]" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1650401425999</created>
@@ -99,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1650401425999</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1650401929213</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650401929213</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6879448-3669-4a48-9596-643eddb117c5" name="Changes" comment="Initial commit" />
+      <created>1650464474984</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650464474984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

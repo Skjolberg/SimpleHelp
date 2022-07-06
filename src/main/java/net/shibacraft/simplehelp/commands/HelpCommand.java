@@ -12,10 +12,15 @@ import java.util.List;
 
 public class HelpCommand implements CommandExecutor {
 
+    private final Yaml ayudaFile;
+
+    public HelpCommand(FileManager fileManager) {
+        this.ayudaFile = fileManager.getYaml("Config");
+    }
+
     @Override
     public boolean onCommand(CommandSender sender, Command help, String label, String[] args) {
 
-        Yaml ayudaFile = FileManager.getFilesYaml().get("Help");
         List<String> sectionList;
 
         if (args.length > 0) {

@@ -18,14 +18,14 @@ import java.util.Set;
 
 public class FileManager implements Loader {
 
-    private static SimpleHelp plugin;
+    private final SimpleHelp plugin;
 
     @Getter
-    private static final Map<String, Yaml> filesYaml = new HashMap<>();
+    public static final Map<String, Yaml> filesYaml = new HashMap<>();
     private static final Set<String> filesCheck = new HashSet<>();
 
     public FileManager(SimpleHelp plugin) {
-        FileManager.plugin = plugin;
+        this.plugin = plugin;
     }
 
 
@@ -55,7 +55,7 @@ public class FileManager implements Loader {
         filesYaml.get("Help").forceReload();
     }
 
-    public static void createFileIfNotExists(String file){
+    public void createFileIfNotExists(String file){
         File fileCheck = new File(plugin.getDataFolder(), file);
 
         if (!fileCheck.exists()) {
@@ -63,11 +63,16 @@ public class FileManager implements Loader {
         }
     }
 
-    public static void checkFiles(Set<String> filesCheck){
+    public void checkFiles(Set<String> filesCheck){
 
         for (String file : filesCheck) {
             createFileIfNotExists(file);
         }
 
     }
+
+    public Yaml getYaml(String yaml){
+        return filesYaml.get(yaml);
+    }
+
 }

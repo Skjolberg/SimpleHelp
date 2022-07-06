@@ -24,7 +24,7 @@ public enum Messages {
     @Getter
     private static boolean Prefix = true;
 
-    public String get(){
+    public String get() {
         return Prefix ? TextColor.color(PREFIX.getValue() + this.value) : TextColor.color(this.value);
     }
 
@@ -41,7 +41,7 @@ public enum Messages {
 
         for (Messages msg : values()) {
 
-            if(!messagesFile.contains(msg.getPath())){
+            if (!messagesFile.contains(msg.getPath())) {
                 messagesFile.set(msg.getPath(), msg.getValue());
                 continue;
             }
