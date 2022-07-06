@@ -1,8 +1,6 @@
 package net.shibacraft.simplehelp.files.messages;
 
 import de.leonhard.storage.Yaml;
-import lombok.Getter;
-import lombok.Setter;
 import net.shibacraft.simplehelp.api.chat.TextColor;
 import net.shibacraft.simplehelp.files.FileManager;
 
@@ -14,14 +12,10 @@ public enum Messages {
     NO_PERMISSION("NO_PERMISSION", "&cYou do not have permission to do this."),
     RELOAD("RELOAD", "&aPlugin reloaded!");
 
-    @Getter
     private final String path;
 
-    @Getter
-    @Setter
     private String value;
 
-    @Getter
     private static boolean Prefix = true;
 
     public String get() {
@@ -35,7 +29,7 @@ public enum Messages {
 
     public static void load() {
 
-        Yaml messagesFile = FileManager.getFilesYaml().get("Messages");
+        Yaml messagesFile = FileManager.getFileManager().getYaml("Messages");
 
         Prefix = !messagesFile.getString("PREFIX").isEmpty();
 
@@ -51,4 +45,21 @@ public enum Messages {
         }
 
     }
+
+    public String getPath() {
+        return this.path;
+    }
+
+    public String getValue() {
+        return this.value;
+    }
+
+    public void setValue(String value) {
+        this.value = value;
+    }
+
+    public boolean isPrefix() {
+        return Prefix;
+    }
+
 }

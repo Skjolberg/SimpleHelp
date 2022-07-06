@@ -16,8 +16,6 @@ repositories {
 dependencies {
     implementation("com.github.simplix-softworks:simplixstorage:3.2.4")
     compileOnly("org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT")
-    compileOnly("org.projectlombok:lombok:1.18.24")
-    annotationProcessor("org.projectlombok:lombok:1.18.24")
 }
 
 tasks {

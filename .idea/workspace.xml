@@ -4,36 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6879448-3669-4a48-9596-643eddb117c5" name="Changes" comment="Initial commit">
+    <list default="true" id="b6879448-3669-4a48-9596-643eddb117c5" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/SimpleHelp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/SimpleHelpCompletion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/banner/Banner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/chat/TextColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/loader/Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/api/logger/CoreLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/commands/HelpCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/commands/MainCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/files/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/files/messages/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/module/CommandModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/shibacraft/simplehelp/module/MainModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/SimpleHelp-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Help.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Messages.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/plugin.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/SimpleHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/SimpleHelp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/banner/Banner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/banner/Banner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/logger/CoreLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/api/logger/CoreLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/commands/MainCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/FileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/messages/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/files/messages/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/CommandModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/CommandModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/MainModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/shibacraft/simplehelp/module/MainModule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +77,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Gradle.SimpleHelp [proguard]">
+  <component name="RunManager" selected="Gradle.SimpleHelp [shadowJar]">
     <configuration name="SimpleHelp [proguard]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -146,8 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SimpleHelp [proguard]" />
         <item itemvalue="Gradle.SimpleHelp [shadowJar]" />
+        <item itemvalue="Gradle.SimpleHelp [proguard]" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +150,14 @@
       <option name="presentableId" value="Default" />
       <updated>1650464474984</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates">
+      <created>1657067258796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657067258796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +173,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>

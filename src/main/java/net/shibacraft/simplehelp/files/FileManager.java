@@ -5,7 +5,6 @@ import de.leonhard.storage.Yaml;
 import de.leonhard.storage.internal.settings.ConfigSettings;
 import de.leonhard.storage.internal.settings.DataType;
 import de.leonhard.storage.internal.settings.ReloadSettings;
-import lombok.Getter;
 import net.shibacraft.simplehelp.SimpleHelp;
 import net.shibacraft.simplehelp.api.loader.Loader;
 import net.shibacraft.simplehelp.files.messages.Messages;
@@ -18,13 +17,14 @@ import java.util.Set;
 
 public class FileManager implements Loader {
 
+    public static FileManager fileManager;
     private final SimpleHelp plugin;
 
-    @Getter
     public static final Map<String, Yaml> filesYaml = new HashMap<>();
     private static final Set<String> filesCheck = new HashSet<>();
 
     public FileManager(SimpleHelp plugin) {
+        FileManager.fileManager = this;
         this.plugin = plugin;
     }
 
@@ -73,6 +73,10 @@ public class FileManager implements Loader {
 
     public Yaml getYaml(String yaml){
         return filesYaml.get(yaml);
+    }
+
+    public static FileManager getFileManager(){
+        return fileManager;
     }
 
 }
